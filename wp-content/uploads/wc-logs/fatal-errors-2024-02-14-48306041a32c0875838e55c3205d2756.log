@@ -1,0 +1,39 @@
+2024-02-14T10:06:14+00:00 CRITICAL Cannot redeclare test_input() (previously declared in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php:41) in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 23
+
+2024-02-14T10:06:14+00:00 CRITICAL Cannot redeclare test_input() (previously declared in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php:41) in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 23
+
+2024-02-14T11:22:45+00:00 CRITICAL Uncaught Error: Object of class stdClass could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(9): include()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): show_page_login('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 24
+
+2024-02-14T11:26:11+00:00 CRITICAL Uncaught Error: Attempt to assign property "ID" on bool in C:\xampp\htdocs\wordpress\wp-includes\class-wp-user.php:173
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php(26): WP_User->init(false)
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): show_page_login('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-user.php on line 173
+
+2024-02-14T11:28:09+00:00 CRITICAL Uncaught Error: Attempt to assign property "ID" on array in C:\xampp\htdocs\wordpress\wp-includes\class-wp-user.php:173
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php(36): WP_User->init(Array)
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(9): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): show_page_login('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-user.php on line 173
+

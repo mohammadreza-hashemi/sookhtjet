@@ -1,0 +1,113 @@
+2024-02-12T08:50:19+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(98): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 98
+
+2024-02-12T08:51:27+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(98): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-cron.php(46): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 98
+
+2024-02-12T08:51:27+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(98): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 98
+
+2024-02-12T08:53:28+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(98): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-cron.php(46): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 98
+
+2024-02-12T08:53:28+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:98
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(98): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 98
+
+2024-02-12T08:55:29+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:99
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(99): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-cron.php(46): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 99
+
+2024-02-12T08:55:29+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:99
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(99): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 99
+
+2024-02-12T08:57:30+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:99
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(99): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-cron.php(46): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 99
+
+2024-02-12T08:57:30+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:99
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(99): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 99
+
+2024-02-12T08:59:31+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:99
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(99): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-cron.php(46): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 99
+
+2024-02-12T08:59:31+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:99
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(99): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 99
+
+2024-02-12T09:03:23+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:99
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(99): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-cron.php(46): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 99
+
+2024-02-12T09:03:23+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:99
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(99): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 99
+
+2024-02-12T09:03:29+00:00 CRITICAL Uncaught ArgumentCountError: define() expects at least 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-config.php:99
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-config.php(99): define('WPMU_PLUGIN_DIR')
+#1 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-admin\plugins.php(10): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-config.php on line 99
+

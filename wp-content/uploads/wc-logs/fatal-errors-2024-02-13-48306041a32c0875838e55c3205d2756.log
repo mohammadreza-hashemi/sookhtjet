@@ -1,0 +1,346 @@
+2024-02-13T06:27:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_my_form" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-settings.php(665): do_action('wp_loaded')
+#3 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T06:27:56+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "load_my_form" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-settings.php(665): do_action('wp_loaded')
+#3 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T07:16:00+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php on line 25
+
+2024-02-13T07:16:19+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php on line 24 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php(24): add_action('admin_footer')
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(15): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 441
+
+2024-02-13T07:17:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php on line 24 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php(24): add_action('admin_footer')
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(15): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 441
+
+2024-02-13T07:17:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php on line 24 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php(24): add_action('wp_footer')
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(15): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 441
+
+2024-02-13T07:19:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php on line 25 and at least 2 expected in C:\xampp\htdocs\wordpress\wp-includes\plugin.php:441
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php(25): add_action('wp_footer')
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(15): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#6 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\plugin.php on line 441
+
+2024-02-13T07:21:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php:1181
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): flush_rewrite_rules_on_shop_page_save('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php(29): do_action('admin_footer')
+#4 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(15): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php on line 1181
+
+2024-02-13T07:29:16+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php:1181
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): flush_rewrite_rules_on_shop_page_save('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\views\login-form.php(32): do_action('admin_footer')
+#4 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(14): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#9 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php on line 1181
+
+2024-02-13T08:05:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_author_posts_url(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php on line 14 and at least 1 expected in C:\xampp\htdocs\wordpress\wp-includes\author-template.php:364
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(14): get_author_posts_url()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\author-template.php on line 364
+
+2024-02-13T08:05:33+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_author_posts_url(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php on line 14 and at least 1 expected in C:\xampp\htdocs\wordpress\wp-includes\author-template.php:364
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(14): get_author_posts_url()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\author-template.php on line 364
+
+2024-02-13T08:26:12+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_author_posts_url(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php on line 14 and at least 1 expected in C:\xampp\htdocs\wordpress\wp-includes\author-template.php:364
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(14): get_author_posts_url()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\author-template.php on line 364
+
+2024-02-13T08:27:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_author_posts_url(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php on line 14 and at least 1 expected in C:\xampp\htdocs\wordpress\wp-includes\author-template.php:364
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(14): get_author_posts_url()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\author-template.php on line 364
+
+2024-02-13T08:43:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_author_posts_url(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php on line 13 and at least 1 expected in C:\xampp\htdocs\wordpress\wp-includes\author-template.php:364
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(13): get_author_posts_url()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): {closure}('')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#5 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\author-template.php on line 364
+
+2024-02-13T08:58:57+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\filter.php:9
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): mytest('')
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-settings.php(665): do_action('wp_loaded')
+#4 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\filter.php on line 9
+
+2024-02-13T10:17:15+00:00 CRITICAL Uncaught Error: Unknown named parameter $foo in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(32): do_action_ref_array('diff_action_ref...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): action_diff_test('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3068): do_action('wp_footer')
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T10:21:17+00:00 CRITICAL Uncaught Error: Unknown named parameter $foo in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(32): do_action_ref_array('diff_action_ref...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): action_diff_test('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3068): do_action('wp_footer')
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T10:23:32+00:00 CRITICAL Uncaught Error: Unknown named parameter $foo in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(32): do_action_ref_array('diff_action_ref...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): action_diff_test('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3068): do_action('wp_footer')
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T10:23:43+00:00 CRITICAL Uncaught Error: Unknown named parameter $foo in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(32): do_action_ref_array('diff_action_ref...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): action_diff_test('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3068): do_action('wp_footer')
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T10:25:33+00:00 CRITICAL Uncaught Error: Unknown named parameter $foo in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(32): do_action_ref_array('diff_action_ref...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): action_diff_test('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3068): do_action('wp_footer')
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T10:25:57+00:00 CRITICAL Uncaught Error: Unknown named parameter $foo in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\actions.php(32): do_action_ref_array('diff_action_ref...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): action_diff_test('')
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\general-template.php(3068): do_action('wp_footer')
+#7 C:\xampp\htdocs\wordpress\wp-includes\template-canvas.php(25): wp_footer()
+#8 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#11 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-13T12:04:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_user_request(), 0 passed in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php on line 11 and exactly 1 expected in C:\xampp\htdocs\wordpress\wp-includes\user.php:4909
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(11): wp_get_user_request()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): showLoginForm('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\user.php on line 4909
+
+2024-02-13T12:21:33+00:00 CRITICAL Uncaught ArgumentCountError: var_dump() expects at least 1 argument, 0 given in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php:11
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(11): var_dump()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): showLoginForm('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php on line 11
+
+2024-02-13T12:33:18+00:00 CRITICAL syntax error, unexpected identifier "form_submit", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 4
+
+2024-02-13T12:34:50+00:00 CRITICAL syntax error, unexpected token "/" in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 4
+
+2024-02-13T12:35:25+00:00 CRITICAL syntax error, unexpected identifier "messge", expecting "," or ";" in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 4
+
+2024-02-13T12:46:21+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string / string in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php:8
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(10): include()
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): showLoginForm('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 8
+
+2024-02-13T12:52:22+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 6
+
+2024-02-13T12:53:48+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 6
+
+2024-02-13T12:56:11+00:00 CRITICAL syntax error, unexpected token "." in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\views\login-form.php on line 6
+
