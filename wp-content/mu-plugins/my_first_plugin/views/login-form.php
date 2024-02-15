@@ -1,22 +1,26 @@
 <?php
+if (isset($_POST['button'])) {
 
-if ($_POST['button']) {
     $name = test_input($_POST["name"]);
     $phone = test_input($_POST["phone"]);
 
+    echo var_dump(wp_verify_nonce('add_order'));
+    die();
+
+    if (!wp_verify_nonce('add_order')) {
+        echo 'nonce is ok';
+    } else {
+        echo 'nonce is faild';
+    }
+
     $nameErr = $phoneErr = "";
-    $name = $phone = "";
 
     if (empty($_POST["name"])) {
         $nameErr = 'name is required';
-    } else {
-        $name = test_input($_POST["name"]);
     }
 
     if (empty($_POST["phone"])) {
         $phoneErr = 'phone is required';
-    } else {
-        $phone = test_input($_POST["phone"]);
     }
 
     $userdata = get_user_by_email($_POST['phone']);
@@ -42,24 +46,26 @@ function test_input($data)
 }
 
 ?>
-
 <!DOCTYPE HTML>
 <html>
 <head>
+
 </head>
 <body>
 <form method="POST">
+    <?php echo wp_nonce_field(-1, 'add_order') ?>
     Name: <input type="text" name="name">
     <br><br>
     phone: <input type="text" name="phone">
     <br><br>
-    <button type="submit" name="button" value="Submit">send</button>
+    <button type="submit" name="button" value="submit">send</button>
+
 </form>
 </body>
 </html>
-
 <?php
-echo $phoneErr;
+
 echo $nameErr;
+echo $phoneErr;
 
 ?>
