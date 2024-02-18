@@ -1,0 +1,83 @@
+2024-02-18T05:39:34+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Order::add_data() in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php:110
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php(27): create_order(11)
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user_view.php(2): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(8): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): show_page_login('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php on line 110
+
+2024-02-18T06:25:22+00:00 CRITICAL Uncaught ArgumentCountError: rand() expects exactly 2 arguments, 1 given in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user_view.php:26
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user_view.php(26): rand(5)
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(8): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): show_page_login('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user_view.php on line 26
+
+2024-02-18T08:16:40+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user_view.php(2): require()
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(8): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): show_page_login('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php on line 24
+
+2024-02-18T11:20:21+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_table_to_db" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#3 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-18T11:20:23+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_table_to_db" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#3 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-18T11:20:33+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_table_to_db" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#3 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-admin\edit.php(10): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+
+2024-02-18T11:20:36+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, function "add_table_to_db" not found or invalid function name in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php:324
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\wordpress\wp-settings.php(643): do_action('init')
+#3 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php on line 324
+

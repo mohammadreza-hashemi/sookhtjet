@@ -1,6 +1,6 @@
 <?php
 
-add_filter('template_include', 'show_page_login');
+//add_filter('template_include', 'show_page_login');
 function show_page_login($page_form)
 {
     global $wp;

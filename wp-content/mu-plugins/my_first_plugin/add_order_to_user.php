@@ -1,7 +1,8 @@
 <?php
-
 define('TWELVE_COLUMNS_MAKING_MONEY', '36');
 define('GIFT', '17');
+define('CAMPAIN_NAME','کمپین 12 ستون پولسازی ');
+
 
 $error = $name = $phone = $success = '';
 
@@ -10,6 +11,7 @@ if (isset($_POST['button'])) {
     $name = sanitize_text_field($_POST["name"]);
     $phone = sanitize_text_field($_POST["phone"]);
     $nonce = $_POST['add_order'];
+
 
     if (!check_nonce($nonce)) return $error = ' نانس معتبر نمیباشد !';
 
@@ -20,11 +22,28 @@ if (isset($_POST['button'])) {
 
     $user = get_user_by('login', $phone);
 
-    if (!$user) {
-        $user = wp_create_user($phone, $name);
+    if ($user) {
+        $user = wp_update_user(
+            array(
+                'ID' => $user->ID,
+                'user_nicename' => $name,
+                'user_email' => 'm.' . $phone . '@soocktjet.com',
+                'display_name' => $name
+            ));
+        $order = create_order($user);
     }
 
-    $order = create_order($user);
+    if (!$user) {
+        $user_id = wp_create_user($phone, $name);
+        wp_update_user(
+            array(
+                'ID' => $user_id,
+                'user_nicename' => $name,
+                'user_email' => 'm.' . $phone . '@soocktjet.com',
+                'display_name'=>$name
+            ));
+        $order = create_order($user_id);
+    }
 
     add_gift_to_order($order);
 
@@ -39,6 +58,7 @@ if (isset($_POST['button'])) {
 function phone_sanetizer(string $phone)
 {
     $phone = filter_var($phone, FILTER_SANITIZE_NUMBER_INT); // 0912abc to 0912
+    $phone = trim($phone);
     $phone = ltrim($phone);
     $phone = rtrim($phone);
     $phone = stripslashes($phone);
@@ -92,26 +112,23 @@ function check_nonce($nonce)
  */
 function create_order($user)
 {
-    $userId = $user->ID;
+    $user = get_user_by('ID', $user);
     $order_data = array(
         'status' => 'completed',
-        'customer_id' => $userId,
-        'created_via' => $user->user_nicename,
+        'customer_id' => $user->ID,
+        'created_via' => $user->nickname,
         'customer_note' => $user->user_login,
     );
 
     $order = wc_create_order($order_data);
-    $order->set_customer_id($userId);
-    $order->set_billing_first_name('mohammadreza biling');
-    $order->set_billing_city('tehran');
-    $order->set_billing_email('setbillingemail@gmail.com');
-    $order->set_created_via('created via');
-    $order->set_address('set address');
-    $order->add_data();
+    $order->set_customer_id($user->ID);
+    $order->add_order_note(CAMPAIN_NAME . date('Y-m-d h:i:s') . 'خرید از لندینگ ');
+    $order->set_billing_email($user->user_email);
+    $order->set_billing_phone($user->user_login);
     $order->save();
 
-    $product = wc_get_product('TWELVE_COLUMNS_MAKING_MONEY');
-    $add_product_to_user_order = $order->add_product($product, 1);
+    $product = wc_get_product(TWELVE_COLUMNS_MAKING_MONEY);
+    $order->add_product($product, 1);
     return $order;
 }
 
@@ -121,15 +138,14 @@ function create_order($user)
  */
 function add_gift_to_order($order)
 {
-    $start_time = "2024/02/17 12:49:11";
-    $end_time = "2024/02/17 12:55:11";
-    $current_time = date('Y/m/d h:i:s');
+    $start_time = "2024-02-18 08:00:00";
+    $end_time = "2024-02-18 15:00:00";
+    $current_time = date('Y-m-d h:i:s');
 
     if ($current_time > $start_time && $current_time < $end_time) {
-        $product_gift = wc_get_product('GIFT');
+        $product_gift = wc_get_product(GIFT);
         $add_product_to_user_order = $order->add_product($product_gift, 1);
     }
-
 }
 
 
