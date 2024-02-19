@@ -1,8 +1,7 @@
 <?php
 define('TWELVE_COLUMNS_MAKING_MONEY', '36');
 define('GIFT', '17');
-define('CAMPAIN_NAME','کمپین 12 ستون پولسازی ');
-
+define('CAMPAIN_NAME', 'کمپین 12 ستون پولسازی ');
 
 $error = $name = $phone = $success = '';
 
@@ -40,16 +39,17 @@ if (isset($_POST['button'])) {
                 'ID' => $user_id,
                 'user_nicename' => $name,
                 'user_email' => 'm.' . $phone . '@soocktjet.com',
-                'display_name'=>$name
+                'display_name' => $name
             ));
         $order = create_order($user_id);
     }
 
-    add_gift_to_order($order);
+    if ($order->get_status() === 'completed') add_gift_to_order($order);
 
     if ($order) {
         $success = 'success';
     }
+
 }
 /**
  * @param string $phone
@@ -129,6 +129,8 @@ function create_order($user)
 
     $product = wc_get_product(TWELVE_COLUMNS_MAKING_MONEY);
     $order->add_product($product, 1);
+
+    add_order_to_another_server($user,$order);
     return $order;
 }
 
@@ -138,14 +140,38 @@ function create_order($user)
  */
 function add_gift_to_order($order)
 {
-    $start_time = "2024-02-18 08:00:00";
-    $end_time = "2024-02-18 15:00:00";
+    $start_time = "2024-02-19 08:00:00";
+    $end_time = "2024-02-19 19:00:00";
     $current_time = date('Y-m-d h:i:s');
 
     if ($current_time > $start_time && $current_time < $end_time) {
         $product_gift = wc_get_product(GIFT);
         $add_product_to_user_order = $order->add_product($product_gift, 1);
     }
+}
+
+
+function add_order_to_another_server($user,$order)
+{
+    $curl = curl_init();
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => 'http://localhost/new_wordpress/wp-json/wp/v2/order',
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_ENCODING => '',
+        CURLOPT_MAXREDIRS => 10,
+        CURLOPT_TIMEOUT => 0,
+        CURLOPT_FOLLOWLOCATION => true,
+        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+        CURLOPT_CUSTOMREQUEST => 'POST',
+        CURLOPT_POSTFIELDS => array('order_id' => 1, 'user_id' => '55', 'user_name' =>'test', 'app_version' => 'sookht_jet'),
+    ));
+    $response = curl_exec($curl);
+    curl_close($curl);
+
+
+
+
+    unset($curl);
 }
 
 

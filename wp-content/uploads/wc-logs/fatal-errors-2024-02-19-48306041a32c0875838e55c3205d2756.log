@@ -1,0 +1,12 @@
+2024-02-19T10:11:30+00:00 CRITICAL Uncaught Error: Undefined constant "CAMPAIN_NAME" in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php:12
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user_view.php(2): require()
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(8): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): show_page_login('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php on line 12
+
