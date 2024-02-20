@@ -10,15 +10,3 @@ function show_page_login($page_form)
         return $page_form;
     }
 }
-
-
-add_action('my_hook_name', 'register_api_route');
-
-function register_api_route()
-{
-
-
-
-}
-
-do_action('my_hook_name');

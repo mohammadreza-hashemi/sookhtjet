@@ -1,0 +1,26 @@
+2024-02-20T05:59:45+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Order as array in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php:134
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php(32): create_order(Object(WP_User))
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user_view.php(2): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(8): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): show_page_login('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php on line 134
+
+2024-02-20T06:04:21+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Order as array in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php:134
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php(32): create_order(Object(WP_User))
+#1 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user_view.php(2): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin.php(8): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(324): show_page_login('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(205): WP_Hook->apply_filters('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\template-loader.php(104): apply_filters('template_includ...', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wordpress\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wordpress\wp-content\mu-plugins\my_first_plugin\add_order_to_user.php on line 134
+
