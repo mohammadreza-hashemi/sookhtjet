@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    body {
+        @font-face {
+            font-family: myfont;
+            src: url('./assets/Yekan/Yekan.woff');
+        }
+
+        * {
+            font-family: myfont;
+        }
+    }
+
+    .container-fluid {
+        width: 80%;
+        background-color: rgb(207, 209, 212);
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+
+    #address_pending_btn {
+        margin-bottom: 15px;
+    }
+</style>
+<body>
+
+<!--address_pending-->
+<div class="container-fluid">
+    <br>
+    <div class="row rounded-sm ">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4" dir="ltr">
+            <button id="address_pending_btn" type="button" class="btn btn-info" data-toggle="collapse"
+                    data-target="#form">در انتظار آدرس
+            </button>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-8 col-lg-8">
+            <p class="mr-20" style="font-size: 20px;margin-right: 20px"><span>1-</span> اطلاعات پستی </p>
+        </div>
+    </div>
+</div>
+
+<div class="container" style="width: 80%;">
+    <div id="form" class="collapse">
+        <form style=" padding-top: 20px">
+            <div class="form-group">
+                <label for="data1">مقدار داده شده اول</label>
+                <input type="text" class="form-control" id="data1" aria-describedby="emailHelp"
+                       placeholder="مقدار اول">
+            </div>
+            <div class="form-group">
+                <label for="data2">مقدار داده شده دوم</label>
+                <input type="text" class="form-control" id="data2" placeholder="مقدار دوم">
+            </div>
+            <button type="submit" class="btn btn-primary">ارسال</button>
+        </form>
+    </div>
+</div>
+<!--end_address_pending-->
+
+<!--install application link-->
+<div class="container-fluid">
+    <br>
+    <div class="row rounded-sm ">
+        <div data-toggle="collapse"
+             data-target="#install_application">
+            <p class="mr-20" style="font-size: 20px;margin-right: 30px ;direction: rtl"><span>2-</span>نصب اپلیکیشن </p>
+        </div>
+    </div>
+</div>
+<div class="container" style="width: 80%">
+    <div id="install_application" class="collapse" >
+        <p>
+            توضیحات راهنمای نصب اپلیکیشن
+        </p>
+    </div>
+</div>
+<!--end install application-->
+
+<!--GMC10X-->
+<div class="container-fluid">
+    <br>
+    <div class="row rounded-sm ">
+        <div>
+            <p class="mr-20" style="font-size: 20px;margin-right: 30px ;direction: rtl"><span>3-</span>اطلاع رسانی شروع
+                GMC10X</p>
+        </div>
+    </div>
+</div>
+<!--End_GMC10X-->
+
+</body>
+</html>
